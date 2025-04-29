@@ -42,9 +42,7 @@
     @media (max-width: 640px) {
       .carousel-section {
         height: 100vh;
-        width: 100vw;
-        margin-left: calc(-1 * var(--tw-space-x-reverse, 0) * 1rem);
-        margin-right: calc(-1 * var(--tw-space-x-reverse, 0) * 1rem);
+        width: 100%;
       }
       .carousel {
         height: 100%;
@@ -86,7 +84,7 @@
 
   <!-- Main Content with Carousel -->
   <main class="w-full">
-    <section class="carousel-section relative rounded-lg sm:rounded-none overflow-hidden w-full aspect-[16/9] sm:aspect-[16/7] ">
+    <section class="carousel-section relative overflow-hidden w-full aspect-[16/9] sm:aspect-[16/7]">
       <div class="carousel w-full h-full relative">
         <!-- Carousel Item 1 -->
         <div class="carousel-item absolute inset-0 w-full h-full active">
