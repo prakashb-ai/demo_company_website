@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <title>Mash Pro Tech</title>
+  <title>AIVARA SOLUTIONS</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet"/>
@@ -39,6 +39,20 @@
     .quote-icon {
       color: #3b82f6;
     }
+    input, textarea {
+      background-color: #1e293b;
+      color: #f9fafb;
+    }
+    input::placeholder, textarea::placeholder {
+      color: #9ca3af;
+      opacity: 1;
+    }
+    input:focus, textarea:focus {
+      outline: none;
+      box-shadow: 0 0 0 3px rgba(59,130,246,0.5);
+      background-color: #1e293b;
+      color: #f9fafb;
+    }
     @media (max-width: 640px) {
       .carousel-section {
         height: 100vh;
@@ -54,21 +68,18 @@
   <!-- Header with Navbar -->
   <header class="flex items-center justify-between px-4 py-4 sm:px-6 max-w-7xl mx-auto">
     <a class="flex items-center space-x-2" href="/">
-      <span class="text-[#2f7fff] font-extrabold text-lg sm:text-xl tracking-widest">MASH</span>
-      <span class="text-[#fca311] text-[8px] sm:text-[9px] font-semibold -mt-1">PRO TECH</span>
-      <img alt="Mash Pro Tech logo icon with blue and orange globe" class="w-6 h-6 sm:w-8 sm:h-8" src="https://storage.googleapis.com/a1aa/image/c721c61e-a48d-41c7-c220-e0a4b3456f4c.jpg"/>
+      <span class="text-[#2f7fff] font-extrabold text-lg sm:text-xl tracking-widest">AIVARA</span>
+      <span class="text-[#fca311] text-[8px] sm:text-[9px] font-semibold mt-1">SOLUTIONS</span>
+      <!-- <img alt="AIVARA SOLUTIONS Tech logo icon with blue and orange globe" class="w-6 h-6 sm:w-8 sm:h-8" src="https://storage.googleapis.com/a1aa/image/c721c61e-a48d-41c7-c220-e0a4b3456f4c.jpg"/> -->
     </a>
     <nav class="hidden md:flex space-x-6 text-xs font-normal text-white" id="desktop-nav">
-      <a class="hover:underline" href="#mash-pro-tech-services">Services</a>
-      <a class="hover:underline" href="#mash-pro-tech-about">About</a>
-      <a class="hover:underline" href="#mash-pro-tech-success-stories">Case Studies</a>
-      <a class="hover:underline" href="#mash-pro-tech-contact">Contact</a>
+      <a class="hover:underline" href="#aivara-solutions-tech-services">Services</a>
+      <a class="hover:underline" href="#aivara-solutions-tech-about">About</a>
+      <a class="hover:underline" href="#aivara-solutions-tech-success-stories">Case Studies</a>
+      <a class="hover:underline" href="#aivara-solutions-tech-contact">Contact</a>
     </nav>
     <div class="flex items-center space-x-3">
-      <button aria-label="Toggle dark mode" class="text-white text-base sm:text-lg">
-        <i class="fas fa-moon"></i>
-      </button>
-      <button class="bg-[#2f7fff] text-xs sm:text-sm rounded-md px-3 py-1 sm:px-4 sm:py-1.5 font-semibold hover:bg-[#1a4ed8] transition">Get Started</button>
+      <button class="bg-[#2f7fff] text-xs sm:text-sm rounded-md px-3 py-1 sm:px-4 sm:py-1.5 font-semibold hover:bg-[#1a4ed8] transition"><a class="hover:underline py-1" href="#aivara-solutions-tech-contact">Get Started </a></button>
       <button class="md:hidden text-white text-base sm:text-lg" id="menu-toggle" aria-label="Toggle mobile menu">
         <i class="fas fa-bars"></i>
       </button>
@@ -76,10 +87,10 @@
   </header>
   <!-- Mobile Menu -->
   <nav class="hidden flex-col space-y-3 px-4 py-4 sm:px-6 bg-[#07182f] text-white text-sm md:hidden" id="mobile-nav">
-    <a class="hover:underline py-1" href="#mash-pro-tech-services">Services</a>
-    <a class="hover:underline py-1" href="#mash-pro-tech-about">About</a>
-    <a class="hover:underline py-1" href="#mash-pro-tech-success-stories">Case Studies</a>
-    <a class="hover:underline py-1" href="#mash-pro-tech-contact">Contact</a>
+    <a class="hover:underline py-1" href="#aivara-solutions-tech-services">Services</a>
+    <a class="hover:underline py-1" href="#aivara-solutions-tech-about">About</a>
+    <a class="hover:underline py-1" href="#aivara-solutions-tech-success-stories">Case Studies</a>
+    <a class="hover:underline py-1" href="#aivara-solutions-tech-contact">Contact</a>
   </nav>
 
   <!-- Main Content with Carousel -->
@@ -88,7 +99,7 @@
       <div class="carousel w-full h-full relative">
         <!-- Carousel Item 1 -->
         <div class="carousel-item absolute inset-0 w-full h-full active">
-          <img alt="People working on laptops in office environment" class="absolute inset-0 w-full h-full object-cover object-center brightness-[0.3]" src="https://picsum.photos/900/394?random=1"/>
+          <img alt="People working on laptops in office environment" class="absolute inset-0 w-full h-full object-cover object-center brightness-[0.3]" src="https://t4.ftcdn.net/jpg/09/19/49/23/360_F_919492386_LkFl7Ka8Oj2QCtchgCaFcsJ2nXb1otUh.jpg"/>
           <div class="absolute inset-0 flex flex-col justify-center px-4 sm:px-6 md:px-12 max-w-[600px]">
             <h1 class="text-2xl sm:text-3xl md:text-4xl font-extrabold leading-tight mb-2">Innovative Tech Solutions</h1>
             <p class="text-gray-300 text-xs sm:text-sm md:text-base max-w-[400px] mb-4 sm:mb-6">Leverage cutting-edge technology to streamline operations and boost productivity.</p>
@@ -103,7 +114,7 @@
         </div>
         <!-- Carousel Item 2 -->
         <div class="carousel-item absolute inset-0 w-full h-full">
-          <img alt="Tech team collaborating in meeting" class="absolute inset-0 w-full h-full object-cover object-center brightness-[0.3]" src="https://via.placeholder.com/900x394?text=Tech+Team"/>
+          <img alt="Tech team collaborating in meeting" class="absolute inset-0 w-full h-full object-cover object-center brightness-[0.3]" src="https://t4.ftcdn.net/jpg/10/41/61/23/360_F_1041612303_HJVUYZEDUKdgdyNkxiuuRnekDEY5wSgV.jpg"/>
           <div class="absolute inset-0 flex flex-col justify-center px-4 sm:px-6 md:px-12 max-w-[600px]">
             <h1 class="text-2xl sm:text-3xl md:text-4xl font-extrabold leading-tight mb-2">Collaborative Innovation</h1>
             <p class="text-gray-300 text-xs sm:text-sm md:text-base max-w-[400px] mb-4 sm:mb-6">Work with our experts to drive your business forward.</p>
@@ -118,14 +129,14 @@
         </div>
         <!-- Carousel Item 3 -->
         <div class="carousel-item absolute inset-0 w-full h-full">
-          <img alt="Digital transformation illustration" class="absolute inset-0 w-full h-full object-cover object-center brightness-[0.3]" src="https://via.placeholder.com/900x394?text=Digital+Transformation"/>
+          <img alt="Digital transformation illustration" class="absolute inset-0 w-full h-full object-cover object-center brightness-[0.3]" src="https://t3.ftcdn.net/jpg/09/81/47/56/360_F_981475670_ZiPDUxhqG3wi989a0yNi0JYT1adu5rni.jpg"/>
           <div class="absolute inset-0 flex flex-col justify-center px-4 sm:px-6 md:px-12 max-w-[600px]">
             <h1 class="text-2xl sm:text-3xl md:text-4xl font-extrabold leading-tight mb-2">Digital Transformation</h1>
             <p class="text-gray-300 text-xs sm:text-sm md:text-base max-w-[400px] mb-4 sm:mb-6">Embrace the future with our cutting-edge solutions.</p>
             <div class="flex flex-wrap gap-3">
               <button class="bg-[#2f7fff] text-xs sm:text-sm rounded-md px-3 py-1.5 sm:px-4 sm:py-2 font-semibold flex items-center space-x-1 hover:bg-[#1a4ed8] transition">
                 <span>Start Now</span>
-                <i class="fas fa-arrow-right text-[10px]"></i>
+                <i class="fas fa-arrow-right  text-[10px]"></i>
               </button>
               <button class="bg-black bg-opacity-70 text-xs sm:text-sm rounded-md px-3 py-1.5 sm:px-4 sm:py-2 font-semibold hover:bg-opacity-90 transition">Discover More</button>
             </div>
@@ -159,11 +170,11 @@
 
   <!-- Our Services Section -->
   <section class="max-w-7xl mx-auto px-4 py-8 sm:py-10">
-    <h2 id="mash-pro-tech-services" class="text-2xl sm:text-3xl font-semibold text-center mb-2">Our Services</h2>
+    <h2 id="aivara-solutions-tech-services" class="text-2xl sm:text-3xl font-semibold text-center mb-2">Our Services</h2>
     <p class="text-center text-gray-400 mb-6 sm:mb-8 text-sm sm:text-base max-w-md mx-auto">
       Comprehensive solutions tailored to your business needs
     </p>
-    <nav class="flex flex-wrap justify-center gap-1 sm:gap-2 mb-6 sm:mb-8 overflow-x-auto scrollbar-hide rounded-lg border border-gray-700 bg-[#152033] text-gray-400 text-xs sm:text-sm font-medium select-none" aria-label="Service categories" role="tablist">
+    <nav class="flex flex-wrap justify-around gap-1 sm:gap-2 mb-6 sm:mb-8 overflow-x-auto scrollbar-hide rounded-lg border border-gray-700 bg-[#152033] text-gray-400 text-xs sm:text-sm font-medium select-none" aria-label="Service categories" role="tablist">
       <button id="tab-business" role="tab" aria-selected="true" aria-controls="panel-business" tabindex="0" class="flex items-center gap-2 whitespace-nowrap px-3 py-1.5 sm:px-4 sm:py-2 border border-transparent rounded-l-lg bg-[#0a162a] text-white focus:outline-none" data-tab="business">
         <i class="fas fa-gift text-sm"></i>
         Business Consulting
@@ -180,7 +191,7 @@
     <div>
       <!-- Business Consulting Panel -->
       <div id="panel-business" role="tabpanel" aria-labelledby="tab-business" tabindex="0" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
-        <article class="bg-[#152033] rounded-md p-4 sm:p-6 flex flex-col justify-between" aria-label="Strategy Development service">
+        <article class="bg-[#152033] rounded-md p-4 sm:p-6 flex flex-col justify-between hover:bg-[#112544] hover:border-[#3B82F6] border border-[#1e293b]" aria-label="Strategy Development service">
           <div>
             <i class="fas fa-brain text-[#4a7fff] text-xl sm:text-2xl mb-4"></i>
             <h3 class="font-semibold text-white mb-1 text-base sm:text-lg">Strategy Development</h3>
@@ -190,7 +201,7 @@
             Learn More <i class="fas fa-arrow-right text-sm"></i>
           </button>
         </article>
-        <article class="bg-[#0f1a2b] rounded-md p-4 sm:p-6 flex flex-col justify-between" aria-label="Process Optimization service">
+        <article class="bg-[#0f1a2b] rounded-md p-4 sm:p-6 flex flex-col justify-between hover:bg-[#112544] hover:border-[#3B82F6] border border-[#1e293b]" aria-label="Process Optimization service">
           <div>
             <i class="fas fa-project-diagram text-[#4a7fff] text-xl sm:text-2xl mb-4"></i>
             <h3 class="font-semibold text-white mb-1 text-base sm:text-lg">Process Optimization</h3>
@@ -200,7 +211,7 @@
             Learn More <i class="fas fa-arrow-right text-sm"></i>
           </button>
         </article>
-        <article class="bg-[#0f1a2b] rounded-md p-4 sm:p-6 flex flex-col justify-between" aria-label="Digital Transformation service">
+        <article class="bg-[#0f1a2b] rounded-md p-4 sm:p-6 flex flex-col justify-between hover:bg-[#112544] hover:border-[#3B82F6] border border-[#1e293b]" aria-label="Digital Transformation service">
           <div>
             <i class="fas fa-chart-bar text-[#4a7fff] text-xl sm:text-2xl mb-4"></i>
             <h3 class="font-semibold text-white mb-1 text-base sm:text-lg">Digital Transformation</h3>
@@ -213,7 +224,7 @@
       </div>
       <!-- Staffing Solutions Panel -->
       <div id="panel-staffing" role="tabpanel" aria-labelledby="tab-staffing" tabindex="0" class="hidden grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
-        <article class="bg-[#0f1a2b] rounded-md p-4 sm:p-6 flex flex-col justify-between" aria-label="Market Analysis service">
+        <article class="bg-[#0f1a2b] rounded-md p-4 sm:p-6 flex flex-col justify-between hover:bg-[#112544] hover:border-[#3B82F6] border border-[#1e293b]" aria-label="Market Analysis service">
           <div>
             <i class="fas fa-chart-line text-[#4a7fff] text-xl sm:text-2xl mb-4"></i>
             <h3 class="font-semibold text-white mb-1 text-base sm:text-lg">Market Analysis</h3>
@@ -223,7 +234,7 @@
             Learn More <i class="fas fa-arrow-right text-sm"></i>
           </button>
         </article>
-        <article class="bg-[#0f1a2b] rounded-md p-4 sm:p-6 flex flex-col justify-between" aria-label="Innovation Consulting service">
+        <article class="bg-[#0f1a2b] rounded-md p-4 sm:p-6 flex flex-col justify-between hover:bg-[#112544] hover:border-[#3B82F6] border border-[#1e293b]" aria-label="Innovation Consulting service">
           <div>
             <i class="fas fa-lightbulb text-[#4a7fff] text-xl sm:text-2xl mb-4"></i>
             <h3 class="font-semibold text-white mb-1 text-base sm:text-lg">Innovation Consulting</h3>
@@ -233,7 +244,7 @@
             Learn More <i class="fas fa-arrow-right text-sm"></i>
           </button>
         </article>
-        <article class="bg-[#0f1a2b] rounded-md p-4 sm:p-6 flex flex-col justify-between" aria-label="Performance Management service">
+        <article class="bg-[#0f1a2b] rounded-md p-4 sm:p-6 flex flex-col justify-between hover:bg-[#112544] hover:border-[#3B82F6] border border-[#1e293b]" aria-label="Performance Management service">
           <div>
             <i class="fas fa-bullseye text-[#4a7fff] text-xl sm:text-2xl mb-4"></i>
             <h3 class="font-semibold text-white mb-1 text-base sm:text-lg">Performance Management</h3>
@@ -246,7 +257,7 @@
       </div>
       <!-- Development Services Panel -->
       <div id="panel-development" role="tabpanel" aria-labelledby="tab-development" tabindex="0" class="hidden grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
-        <article class="bg-[#0f1a2b] rounded-md p-4 sm:p-6 flex flex-col justify-between" aria-label="Custom Software Development service">
+        <article class="bg-[#0f1a2b] rounded-md p-4 sm:p-6 flex flex-col justify-between hover:bg-[#112544] hover:border-[#3B82F6] border border-[#1e293b]" aria-label="Custom Software Development service">
           <div>
             <i class="fas fa-laptop-code text-[#4a7fff] text-xl sm:text-2xl mb-4"></i>
             <h3 class="font-semibold text-white mb-1 text-base sm:text-lg">Custom Software Development</h3>
@@ -256,7 +267,7 @@
             Learn More <i class="fas fa-arrow-right text-sm"></i>
           </button>
         </article>
-        <article class="bg-[#0f1a2b] rounded-md p-4 sm:p-6 flex flex-col justify-between" aria-label="Mobile App Development service">
+        <article class="bg-[#0f1a2b] rounded-md p-4 sm:p-6 flex flex-col justify-between hover:bg-[#112544] hover:border-[#3B82F6] border border-[#1e293b]" aria-label="Mobile App Development service">
           <div>
             <i class="fas fa-mobile-alt text-[#4a7fff] text-xl sm:text-2xl mb-4"></i>
             <h3 class="font-semibold text-white mb-1 text-base sm:text-lg">Mobile App Development</h3>
@@ -266,7 +277,7 @@
             Learn More <i class="fas fa-arrow-right text-sm"></i>
           </button>
         </article>
-        <article class="bg-[#0f1a2b] rounded-md p-4 sm:p-6 flex flex-col justify-between" aria-label="Web Development service">
+        <article class="bg-[#0f1a2b] rounded-md p-4 sm:p-6 flex flex-col justify-between hover:bg-[#112544] hover:border-[#3B82F6] border border-[#1e293b]" aria-label="Web Development service">
           <div>
             <i class="fas fa-globe text-[#4a7fff] text-xl sm:text-2xl mb-4"></i>
             <h3 class="font-semibold text-white mb-1 text-base sm:text-lg">Web Development</h3>
@@ -281,11 +292,11 @@
   </section>
 
   <!-- About Section -->
-  <section id="mash-pro-tech-about" class="max-w-7xl mx-auto px-4 sm:px-6 py-10 sm:py-12">
+  <section id="aivara-solutions-tech-about" class="max-w-7xl mx-auto px-4 sm:px-6 py-10 sm:py-12">
     <div class="text-center max-w-4xl mx-auto">
-      <h2 class="text-white font-extrabold text-xl sm:text-2xl md:text-3xl mb-4">About MASH Pro Tech</h2>
+      <h2 class="text-white font-extrabold text-xl sm:text-2xl md:text-3xl mb-4">About AIVARA SOLUTIONS Tech</h2>
       <p class="text-[#9CA3AF] text-sm sm:text-base leading-relaxed">
-        Welcome to MASH Pro Tech, where innovation meets excellence. We are a leading technology solutions provider dedicated to transforming businesses through cutting-edge technology and unparalleled expertise. Our mission is to empower organizations with the tools and knowledge they need to thrive in the digital age.
+        Welcome to AIVARA SOLUTIONS Tech, where innovation meets excellence. We are a leading technology solutions provider dedicated to transforming businesses through cutting-edge technology and unparalleled expertise. Our mission is to empower organizations with the tools and knowledge they need to thrive in the digital age.
       </p>
     </div>
     <div class="mt-8 sm:mt-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6 max-w-6xl mx-auto">
@@ -312,12 +323,12 @@
   <section class="max-w-5xl mx-auto px-4 sm:px-6 pt-12 sm:pt-16 pb-16 sm:pb-20">
     <h2 class="text-white text-xl sm:text-2xl font-semibold text-center mb-4">Why Choose Us</h2>
     <p class="text-center text-sm sm:text-base max-w-3xl mx-auto text-[#94a3b8]">
-      Choosing MASH Pro Tech means partnering with a team that is passionate about technology and dedicated to your success. We take the time to understand your business and develop solutions that drive real results. With our extensive experience and commitment to excellence, you can trust us to deliver the best possible outcomes for your organization.
+      Choosing AIVARA SOLUTIONS Tech means partnering with a team that is passionate about technology and dedicated to your success. We take the time to understand your business and develop solutions that drive real results. With our extensive experience and commitment to excellence, you can trust us to deliver the best possible outcomes for your organization.
     </p>
   </section>
 
   <!-- Success Stories Section -->
-  <section id="mash-pro-tech-success-stories" class="max-w-6xl mx-auto px-4 sm:px-6 pb-16 sm:pb-20">
+  <section id="aivara-solutions-tech-success-stories" class="max-w-6xl mx-auto px-4 sm:px-6 pb-16 sm:pb-20">
     <h3 class="text-white text-lg sm:text-xl font-semibold text-center mb-8 sm:mb-10">Success Stories</h3>
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
       <article class="border border-[#1e293b] rounded-lg p-4 sm:p-5 flex-1 transition-colors duration-300 hover:border-[#3b82f6] hover:bg-[#0f172a]" aria-label="Digital Transformation success story">
@@ -345,7 +356,7 @@
       <div class="text-[#9ca3af] text-xs sm:text-sm max-w-[420px]">
         <i class="fas fa-quote-left quote-icon text-xl sm:text-2xl mb-4 block"></i>
         <p class="leading-relaxed">
-          "MASH Pro Tech transformed our business operations completely. Their expertise in digital transformation helped us achieve remarkable growth."
+          "AIVARA SOLUTIONS Tech transformed our business operations completely. Their expertise in digital transformation helped us achieve remarkable growth."
         </p>
         <div class="mt-6 text-[9px] sm:text-xs text-[#6b7280] font-semibold leading-tight">
           <p>Sarah Johnson</p>
@@ -363,16 +374,53 @@
     </div>
   </section>
 
-  <!-- Call to Action Section -->
-  <section id="mash-pro-tech-contact" class="bg-[#07182f] py-12 sm:py-16 px-4 border-t border-[#15202b]">
-    <div class="max-w-4xl mx-auto text-center">
-      <h3 class="font-semibold text-white text-base sm:text-lg mb-3">Ready to Transform Your Business?</h3>
-      <p class="text-[#9ca3af] text-xs sm:text-sm max-w-[420px] mx-auto mb-6 sm:mb-8">
-        Let’s discuss how we can help you achieve your business goals with our expert consulting, staffing, and development solutions.
-      </p>
-      <button class="bg-[#3b82f6] text-white text-xs sm:text-sm rounded px-4 py-2 sm:px-5 sm:py-2 inline-flex items-center justify-center mx-auto hover:bg-blue-500 transition-colors duration-200" type="button">
-        <i class="fas fa-link mr-2"></i> Schedule consultation
-      </button>
+  <!-- Contact Form Section -->
+  <section id="aivara-solutions-tech-contact" class="bg-[#07182f] py-12 sm:py-16 px-4 border-t border-[#15202b]">
+    <div class="max-w-md mx-auto bg-[#0f172a] bg-opacity-80 rounded-xl shadow-lg p-6">
+      <h3 class="text-2xl sm:text-3xl font-extrabold mb-6 text-white text-center select-none">Get in Touch</h3>
+      <form id="contactForm" class="space-y-5" aria-label="Contact form with resume upload">
+        <div>
+          <label for="name" class="block text-gray-300 font-semibold mb-1">Name</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Your full name"
+            required
+            class="w-full rounded-md px-4 py-2 placeholder-gray-400 border border-gray-600 focus:border-blue-400 transition"
+          />
+        </div>
+        <div>
+          <label for="email" class="block text-gray-300 font-semibold mb-1">Email</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="you@example.com"
+            required
+            class="w-full rounded-md px-4 py-2 placeholder-gray-400 border border-gray-600 focus:border-blue-400 transition"
+          />
+        </div>
+        <div>
+          <label for="resume" class="block text-gray-300 font-semibold mb-1">Upload Resume</label>
+          <input
+            type="file"
+            id="resume"
+            name="resume"
+            accept=".pdf,.doc,.docx"
+            required
+            class="w-full cursor-pointer text-gray-100 border border-gray-600 rounded-md bg-[#1e293b] px-3 py-2"
+            aria-describedby="fileHelp"
+          />
+          <p id="fileHelp" class="text-gray-400 text-xs mt-1">Accepted formats: PDF, DOC, DOCX</p>
+        </div>
+        <button
+          type="submit"
+          class="w-full bg-[#2f7fff] hover:bg-[#1a4ed8] text-white font-semibold py-3 rounded-md transition focus:outline-none focus:ring-4 focus:ring-blue-400"
+        >
+          Send Message
+        </button>
+      </form>
     </div>
   </section>
 
@@ -380,20 +428,20 @@
   <footer class="bg-[#15202b] py-6 px-4 sm:px-6 text-[#6b7280] text-[9px] sm:text-xs font-sans">
     <div class="max-w-7xl mx-auto flex flex-col sm:flex-row sm:flex-wrap items-center justify-between gap-4 text-center sm:text-left">
       <div class="order-3 sm:order-1">
-        2023 MASH Pro Tech. All Rights Reserved
+        2025 AIVARA SOLUTIONS Tech. All Rights Reserved
       </div>
       <div class="order-1 sm:order-2 text-center">
-        <p class="font-semibold">MASH Pro Tech</p>
+        <p class="font-semibold">AIVARA SOLUTIONS Tech</p>
         <p>2700 N. Sam Rayburn Suite 240</p>
         <p>Carrollton, Texas 75007</p>
         <p><span class="font-semibold">Email:</span> <a href="mailto:info@mashprotech.com" class="hover:underline">info@mashprotech.com</a></p>
         <p><span class="font-semibold">Phone:</span> <a href="tel:+14697254441" class="hover:underline">(469) 725-4441</a></p>
       </div>
       <nav class="order-2 sm:order-3 flex flex-wrap justify-center gap-4 sm:gap-6">
-        <a href="#mash-pro-tech-about" class="hover:underline hover:text-white transition-colors duration-200">About</a>
+        <a href="#aivara-solutions-tech-about" class="hover:underline hover:text-white transition-colors duration-200">About</a>
         <a href="#" class="hover:underline hover:text-white transition-colors duration-200">Privacy Policy</a>
         <a href="#" class="hover:underline hover:text-white transition-colors duration-200">Licensing</a>
-        <a href="#mash-pro-tech-contact" class="hover:underline hover:text-white transition-colors duration-200">Contact</a>
+        <a href="#aivara-solutions-tech-contact" class="hover:underline hover:text-white transition-colors duration-200">Contact</a>
       </nav>
     </div>
   </footer>
@@ -403,7 +451,7 @@
     <i class="fas fa-chevron-up"></i>
   </button>
 
-  <!-- JavaScript for Navbar, Carousel, and Tabs -->
+  <!-- JavaScript for Navbar, Carousel, Tabs, and Contact Form -->
   <script>
     // Mobile Menu Toggle
     document.getElementById('menu-toggle').addEventListener('click', () => {
@@ -488,6 +536,43 @@
           panel.focus();
         }
       });
+    });
+
+    // Contact Form Functionality
+    const contactForm = document.getElementById('contactForm');
+    contactForm.addEventListener('submit', function(e) {
+      e.preventDefault();
+
+      const name = encodeURIComponent(contactForm.name.value.trim());
+      const email = encodeURIComponent(contactForm.email.value.trim());
+      const resumeInput = contactForm.resume;
+
+      if (!name || !email) {
+        alert('Please fill in your name and email.');
+        return;
+      }
+
+      if (resumeInput.files.length === 0) {
+        alert('Please select a resume file to attach manually.');
+        resumeInput.focus();
+        return;
+      }
+
+      const mailToRecipient = "puvvadisaahiti@gmail.com";
+
+      const subject = `Contact from ${contactForm.name.value.trim()}`;
+      const body = `Hello,
+
+My name is ${contactForm.name.value.trim()}.
+My email is ${contactForm.email.value.trim()}.
+
+Please kindly find my resume attached manually when you send this email.
+
+Thank you!`;
+
+      const mailtoLink = `mailto:${mailToRecipient}?subject=${subject}&body=${encodeURIComponent(body)}`;
+
+      window.location.href = mailtoLink;
     });
   </script>
 </body>
